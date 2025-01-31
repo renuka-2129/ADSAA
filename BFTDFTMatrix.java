@@ -1,5 +1,5 @@
 import java.util.*;
-class BFTDFT {
+class BFTDFTMatrix {
 	static void bfs(int[][] adj, int s, boolean[] visited) {
 	      Queue <Integer> q = new LinkedList<>();
 	      visited[s]=true;
